@@ -145,3 +145,70 @@ hr{
     font-size: 450%;
     margin: auto;
 }
+
+@media all and (max-width: 1024px){
+    .Nav{
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 20vh;
+        font-size: 12px;
+    }
+
+    .Details{
+        width: inherit;
+        height: auto;
+    }
+
+    .Details h3{
+        color: rgb(116, 44, 44);
+    }
+
+    #Mob{
+        display: inline-block;
+    }
+
+    #Mob a{
+        font-size: 11px;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        margin: 0px 1px;
+    }
+
+    .Nav h4, .List, .Social, hr{
+        display: none;
+    }
+
+    .Nav img{
+        border-radius: 15px;
+        width: 70px;
+        height: 5vh;
+        margin: 10px 0 2px 0;
+    }
+
+    .Content{
+        width: 100%;
+        top: 20%;
+        left: 0%;
+        height: auto;
+    }
+
+    .Poem{
+        left: 0%;
+        height: auto;
+        font-size: 50%;
+    }
+
+    #HeadIndex{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        background: url(../IMG/sample.jpg) no-repeat;
+        background-size: cover;
+        text-align: center;
+        z-index: -1;
+    }
+}
